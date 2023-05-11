@@ -45,11 +45,10 @@ public class ServletDemo extends HttpServlet {
 		RequestDispatcher rd = req.getRequestDispatcher("nc");
 		rd.forward(req, res);
 		
-		RequestDispatcher rdi = req.getRequestDispatcher("lc");
-		rdi.forward(req, res);
+		
 		
 //		PrintWriter p = res.getWriter();
-//		p.println("result is "+sum);
+//		p.println("login successfully");
 	}
 	
 	
